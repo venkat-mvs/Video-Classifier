@@ -1,0 +1,6 @@
+python3.7 Final\ Project/classifier.py -i 'GolfSwinging.avi'\
+						-o 'swing.mp4'      \
+						-b './bi-lstm.hdf5' \
+						-c './model.hdf5'   \
+						-l 'Golf Swinging' 'Riding Horse' 'Skate Boarding' 'Running' 
+						-n 10
